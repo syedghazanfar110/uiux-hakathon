@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex justify-between items-center h-[41px] w-[1286px] t-29px left-54px">
             <h2 className="w-[85px] h-[36px] font-montserrat text-[24px] font-bold size-[34px]">Furniro</h2>
             <div className="flex justify-end items-center h-[72px] w-[285px] t-[134px] left-[102.01px]">
-              <p className="font-poppins font-[400] text-[16px] h-[24px]">
+              <p className="font-poppins font-[400] text-[16px] h-[24px] text-end">
                 400 University Drive Suite 200 Coral Gables, FL 33134 USA
               </p>
             </div>
@@ -24,8 +24,8 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <div className="flex justify-between items-center h-[59px] w-[1240px] t-29px left-59px">
-          <p>Copyright © 2023 Furniro</p>
+        <div className='flex justify-between items-center h-[100px] w-[1440px] t-29px left-54px text-end'>
+          <p className="font-poppins font-[400] text-[16px] h-[24px] text-center">Copyright © 2023 Furniro</p>
         </div>
       </div>
     </div>
